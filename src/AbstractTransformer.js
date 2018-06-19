@@ -19,7 +19,7 @@ class Transformer {
     transform(orm){
     	//defaultly return the json format 
     	//of the orm object
-        return this._orm.toJson();
+        return orm.toJson();
     };
 
 	/**
